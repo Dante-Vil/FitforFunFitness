@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Fit for Fun Fitness Sign Up</title>
+</head>
+<body>
+  <div class="container3">
+    <nav class="mainnav">
+      <a href="index.html">Home</a> 
+      <a href="classes.html">Classes</a>
+      <a href="info.html">Sign Up</a>
+      </nav>
+    <form method="get" action="thankyou.html">
+        <fieldset class="fieldset">
+          <legend class="legend">
+            Contact Information
+          </legend>
+          <label for="fname">
+            Name: 
+            <input autofocus type="text" name="fname" id="fname" required placeholder="First Name">
+          </label>
+          <label for="lname">
+            Last Name: 
+            <input type="text" name="lname" id="lname" required placeholder="Last Name">
+          </label>
+          <label for="email">
+            Email: 
+            <input type="email" name="email" id="email" required placeholder="yourEmail@example.com">
+          </label>
+          <label for="phone">
+            Phone:
+            <input type="phone" name="phone" id="phone" required placeholder="(xxx) xxx-xxxx">
+          </label>
+          <label for="bestway">
+            Best Way to Reach You:
+            <select name="bestway" id="bestway">
+              <option>email</option>
+              <option>phone</option>
+              <option>owl</option>
+            </select>
+          </label>
+        </fieldset>
+        </fieldset>
+        <fieldset class="fieldset">
+          <legend class="legend">
+            What Classes Are You Intersted In?  
+          </legend>
+          <input class="checkboxes" type="checkbox" id="CrossTraining" name="CrossTraining">Cross Training
+          <input class="checkboxes" type="checkbox" id="Sprint" name="Sprint">Sprint
+          <input class="checkboxes" type="checkbox" id="Spin" name="Spin">Spin 
+          <input class="checkboxes" type="checkbox" id="BodyPump" name="BodyPump">Body Pump
+          <input class="checkboxes" type="checkbox" id="BodyCombat" name="BodyCombat">Body Combat
+          <input class="checkboxes" type="checkbox" id="StepInterval" name="StepInterval">Step Interval
+          <input class="checkboxes" type="checkbox" id="AdvancedCrossTraining" name="AdvancedCrossTraining">Advanced Cross Training
+          <input class="checkboxes" type="checkbox" id="MixxedFIT" name="MixxedFIT">MixxedFIT
+          <input class="checkboxes" type="checkbox" id="Zumba" name="Zumba">Zumba
+          <input type="radio" id="AM" name="AM/PM" title="AM">AM
+          <input type="radio" id="PM" name="AM/PM" title="PM">PM
+        </fieldset>
+        <fieldset class="fieldset">
+          <legend class="legend">
+            Any questions or requests?
+          </legend>
+          <textarea id="textarea1" name="textarea1" rows="4" cols="50"></textarea>
+        </fieldset>
+        <input class="submit" type="submit" value="Submit">
+      </form>
+  </div>
+</body>
+</html>
